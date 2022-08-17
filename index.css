@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 50px;
+}
+
+button {
+  padding-inline: 40px;
+  padding-block: 20px;
+  border-width: 0px 0px 0px 0px;
+  display: inline-flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+}
+
+button:hover {
+  border: ridge black;
+  border-width: 5px 4px 1px 1px;
+  border-bottom:none;
+  border-left: none;
+  transition-property: border;
+  transition-delay: .1s;
+  transition-duration: .2s;
+  transition-timing-function: ease-in;
+}
