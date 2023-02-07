@@ -40,9 +40,13 @@ body {
 }
 
 #btn2:hover {
-  border: .12em ridge black;
+  border: .125em ridge black;
   transition-property: border;
   transition-duration: .1s;
   transition-timing-function: ease-out;
   cursor: pointer;
 }
+
+#btn2 {
+  font-size: large;
+} 
