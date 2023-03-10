@@ -50,6 +50,15 @@ button {
   }
 }
 
+@keyframes fadeInRight {
+  from {
+    transform: translateX(-1000px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 .btn1 {
   background-color: lightcoral;
   animation: fadeInUp;
@@ -59,13 +68,16 @@ button {
 
 .btn2 {
   background-color: lightgreen;
-  animation: fadeInleft;
+  animation: fadeInRight;
   animation-duration: 2s;
   animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .btn3 {
   background-color: lightseagreen;
+  animation: fadeInleft;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .btn4 {
