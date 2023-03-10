@@ -57,5 +57,7 @@ button {
 
 .btn4 {
   background-color: lightslategrey;
-  
+  animation: fadeInDown;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
