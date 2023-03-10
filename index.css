@@ -11,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 7rem;
+  background-color: lightsalmon;
 }
 
 button {
@@ -21,8 +22,29 @@ button {
   border-radius: 5px;
 }
 
+@keyframes fadeInUp {
+  from {
+    transform: translateY(-1000px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    transform: translateY(1000px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 .btn1 {
   background-color: lightcoral;
+  animation: fadeInUp;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .btn2 {
@@ -35,4 +57,5 @@ button {
 
 .btn4 {
   background-color: lightslategrey;
+  
 }
