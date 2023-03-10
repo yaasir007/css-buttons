@@ -43,19 +43,19 @@ button {
 
 @keyframes fadeInleft {
   from {
-    transform: translateX(1000px);
+    transform: translateX(1000px) rotate(360deg);
   }
   to {
-    transform: translateX(0);
+    transform: translateX(0) rotate(0deg);
   }
 }
 
 @keyframes fadeInRight {
   from {
-    transform: translateX(-1000px);
+    transform: translateX(-1000px) rotate(360deg);
   }
   to {
-    transform: translateX(0);
+    transform: translateX(0) rotate(0deg);
   }
 }
 
